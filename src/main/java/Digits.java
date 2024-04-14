@@ -8,7 +8,7 @@ public class Digits
 	public Digits(int num)
 	{ 
 		int listSize = 0;
-		ArrayList <Integer> digitList; 
+		ArrayList <Integer> digitList(); 
 		for(int i = num; i >= 10; i=i/10)
 			listSize++;
 		for(int j = listSize-1; j >= 0; j--){
