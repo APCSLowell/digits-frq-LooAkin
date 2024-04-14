@@ -12,7 +12,7 @@ public class Digits
 		for(int i = num; i >= 10; i=i/10)
 			listSize++;
 		for(int j = listSize-1; j >= 0; j--){
-			digitList.add(0,(num % 10));
+			digitList.add(0, new Integer(num % 10));
 			num = num/10;
 		}
 	}
