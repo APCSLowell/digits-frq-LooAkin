@@ -19,8 +19,8 @@ public class Digits
 
 	public boolean isStrictlyIncreasing()
 	{ 
-		for(int k = 0; k < digitList.length-1; k++){
-			if(digitList[k] >= digitList[k+1])
+		for(int k = 0; k < digitList.length()-1; k++){
+			if((digitList[k]) >= (digitList[k+1]))
 				return false;
 		}
 		return true;
