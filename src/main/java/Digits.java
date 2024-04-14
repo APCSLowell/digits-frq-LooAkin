@@ -23,7 +23,7 @@ public class Digits
 			if(digitList[k] >= digitList[k+1])
 				return false;
 		}
-		rturn true;
+		return true;
 	}
 	
 	public String toString()
