@@ -3,12 +3,11 @@ import java.util.ArrayList;
 public class Digits
 {
 
-	private ArrayList<Integer> digitList;
+	private ArrayList<Integer> digitList();
 
 	public Digits(int num)
 	{ 
 		int listSize = 0;
-		ArrayList <Integer> digitList(); 
 		for(int i = num; i >= 10; i=i/10)
 			listSize++;
 		for(int j = listSize-1; j >= 0; j--){
